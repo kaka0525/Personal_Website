@@ -107,7 +107,7 @@ ul.thumbs li.content {
 	background: none;
 	float: left;
     list-style: none;
-    height: 250px;
+    height: 350px;
 	position: relative;
 	padding: 45px 0 45px;
 }
@@ -125,7 +125,7 @@ ul.thumbs li.content .close {
     font-weight: normal;
     font-family: -webkit-pictograph;
     font-size: 76px;
-    line-height: 70px;
+    line-height: 100px;
 }
 
 ul.thumbs li.content .close:hover {

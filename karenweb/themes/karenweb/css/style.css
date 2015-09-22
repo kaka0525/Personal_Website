@@ -21,9 +21,10 @@ html, body{
 }
 
 body{
-	font-family: "Open Sans", sans-serif;
+	font-family: "Courier", sans-serif;
 	font-weight: 400;
-	background-color: #ecf0f1;
+/*	background-color: #ecf0f1;*/
+    background: url(../img/content/popsicle.jpg) no-repeat center center fixed;
 	scrollbar-face-color: #121212;
 }
 
@@ -279,17 +280,17 @@ body{
 }
 
 #sidebar .link-me i.fa{
-	background-color: #1abc9c;
-	color: #ecf0f1;
+	background-color: #acacac;
+	color: white;
 	width: 45px;
 	height: 45px;
 	padding-top: 13px;
 	border-radius: 10px;
-	font-size: 14pt;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	    -ms-border-radius: 10px;
-	     -o-border-radius: 10px;
+	font-size: 16pt;
+	-webkit-border-radius: 50px;
+	   -moz-border-radius: 50px;
+	    -ms-border-radius: 50px;
+	     -o-border-radius: 50px;
 }
 
 #sidebar .link-me i.fa:hover{
