@@ -476,6 +476,7 @@ body{
 	text-align: right;
 	margin-right: 80px;
 	margin-top: 20px;
+font-family: 'Zeyada', cursive, Courier;
 }
 
 .timeline > li > .timeline-badge {
@@ -687,6 +688,9 @@ body{
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
+
+
+
 
 /*	BLOG
 ==============================*/
