@@ -39,6 +39,13 @@ $(function () {
 	});
 });
 
+$(document).ready(function() {
+    $("[data-link]").click(function() {
+        window.location.href = $(this).attr("data-link");
+        return false;
+    });
+});
+
 // Destroy example
 $(function(){
 	$('.destroy').click(function(){

@@ -21,7 +21,7 @@ html, body{
 }
 
 body{
-	font-family: "Courier", sans-serif;
+	font-family: "Muli",Courier, sans-serif;
 	font-weight: 400;
 /*	background-color: #ecf0f1;*/
     background: url(../img/content/popsicle.jpg) no-repeat center center fixed;
@@ -79,7 +79,7 @@ body{
 }
 
 .btn.btn-primary{
-	background-color: #1abc9c;
+	background-color: #0ABAB5;
 	color: #fff;
 	border: 1px solid #1abc9c;
 }
@@ -195,7 +195,6 @@ body{
 ===========================*/
 
 #sidebar{
-	border-top: 10px solid #1abc9c;
 	margin-bottom: 30px;
 }
 
@@ -303,7 +302,7 @@ body{
 }
 
 #sidebar .link-me .hr-center{
-	height: 3px;
+	height: 0px;
 	background-color: #34495e;
 	margin: 0 auto;
 	width: 100px;
@@ -314,8 +313,8 @@ body{
 ===========================*/
 
 #content{
-	background-color: #fff;
-	border-top: 10px solid #16a085;
+	background-color: rgba(255,255,255, 0.93);
+	border-top: 5px solid #0ABAB5;
 	border-bottom-right-radius: 10px;
 	-webkit-border-bottom-right-radius: 10px;
 	   -moz-border-bottom-right-radius: 10px;
@@ -330,7 +329,7 @@ body{
 
 #content .navbar{
 	margin-bottom: 0;
-	background-color: #ecf0f1;
+	background-color: white;
 }
 
 #content .navbar-default .navbar-nav > .active > a,
@@ -765,7 +764,7 @@ font-family: 'Zeyada', cursive, Courier;
 
 footer{
 	background-color: #34495e;
-	padding: 30px 20px 20px 20px;
+	padding: 10px 20px 20px 20px;
 	margin-top: 30px;
 }
 
@@ -781,6 +780,10 @@ footer p{
         z-index: 1030 !important;
         position: fixed !important;
     }
+
+[data-link] {
+    cursor: pointer;
+}
 
 /*	RESPONSIVE
 =============================*/
